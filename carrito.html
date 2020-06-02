@@ -1,0 +1,94 @@
+<!DOCTYPE html >
+<html >
+<head>
+<title>Documento sin t&iacute;tulo</title>
+<style type="text/css">
+<!--
+body {
+	background-color: #FF9999;
+}
+.Estilo1 {
+	font-size: 36px;
+	font-weight: bold;
+	font-style: italic;
+}
+.Estilo2 {
+	font-size: 16px;
+	font-weight: bold;
+}
+.Estilo3 {
+	font-size: 18px;
+	font-style: italic;
+}
+-->
+</style></head>
+
+<body>
+<div align="center" class="Estilo1">
+  <p>CARRITO DE COMPRAS</p>
+  <p>&nbsp;</p>
+  <p>&nbsp;</p>
+  <p>&nbsp;</p>
+</div>
+<form action="guardar.php" method="POST">
+  <label>
+  <div align="center"><span class="Estilo2">NOMBRE</span>
+    <input type="text" name="nombre" />
+  </div>
+  </label>
+  <p>
+    <label>
+    <div align="center"><strong>APELLIDO</strong>
+      <input type="text" name="apellido" />
+    </div>
+    </label>
+  </p>
+  <p>
+    <label>
+    <div align="center"><strong>NOMBRE DEL ARTICULO</strong>
+      <input type="text" name="articulo" />
+    </div>
+    </label>
+  </p>
+  <p>
+     <label>
+    <div align="center"><strong>PRECIO</strong>
+      <input type="number" name="precio" />
+    </div>
+    </label>
+  </p>
+  <p>
+    <label>
+    <div align="center"><strong>CORREO ELECTRONICO</strong>
+      <input type="text" name="correo" />
+    </div>
+    </label>
+  </p>
+  <p>
+    <label>
+    <div align="center"><strong>DOMICILIO</strong>
+      <input type="text" name="domicilio" />
+      <br />
+      <br />
+      <br />
+      <span class="Estilo3"><strong>FORMAS DE PAGO </strong><br />
+      <br />
+      </span></div>
+    <p align="center">
+        <input type="radio" name="FORMAS DE PAGO" value="opción" />
+        <strong>
+        TARJETA DE CREDITO 
+        <input type="radio" name="FORMAS DE PAGO" value="opción" />
+        TARJETA DE DEBITO</strong><br />
+    </p>
+     <p>
+    <p align="center">
+     <input type="submit" value="ENVIAR">
+     <input type="reset" value="BORRAR">
+  </p>
+    </label>
+  </p>
+</form>
+</body>
+
+</html>
